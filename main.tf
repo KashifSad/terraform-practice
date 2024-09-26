@@ -57,7 +57,7 @@ resource "aws_security_group" "my_sg" {
 
 resource "aws_network_interface" "my_nic" {
   subnet_id       = aws_subnet.my_subnet.id
-  private_ips    = ["10.0.1it.50"]
+  private_ips    = ["10.0.1.50"]
   
   
   tags = {
